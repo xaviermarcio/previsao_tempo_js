@@ -4,9 +4,9 @@ Bem-vindo ao Projeto Previsão do Tempo! Este é um projeto web desenvolvido par
 ## Funcionalidades Principais
 Busca por Cidade: Digite o nome da cidade desejada no campo de busca para obter informações meteorológicas específicas para aquela localização.
 
-## Exibição Detalhada: Apresentação detalhada da previsão do tempo, incluindo temperatura atual, máxima e mínima, umidade, velocidade do vento e outras informações relevantes.
+Exibição Detalhada: Apresentação detalhada da previsão do tempo, incluindo temperatura atual, máxima e mínima, umidade, velocidade do vento e outras informações relevantes.
 
-## API de Localização: A aplicação consome uma API de localização para encontrar automaticamente a cidade com base no nome inserido, garantindo uma experiência de usuário mais intuitiva.
+API de Localização: A aplicação consome uma API de localização para encontrar automaticamente a cidade com base no nome inserido, garantindo uma experiência de usuário mais intuitiva.
 
 ## Tecnologias Utilizadas
 HTML: Estruturação da página web.
