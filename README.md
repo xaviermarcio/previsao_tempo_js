@@ -15,7 +15,7 @@ JavaScript: Lógica de programação para interação do usuário e manipulaçã
 API de Previsão do Tempo: Consumo de uma API para obter informações meteorológicas atualizadas.
 
 ## Como Usar
-Clone o repositório para sua máquina local:
+Clone o repositório para sua máquina local.
 
 Abra o arquivo index.html em seu navegador web.
 
