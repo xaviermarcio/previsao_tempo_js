@@ -11,5 +11,72 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
+    background-image: url("https://source.unsplash.com/1600x900/?landscape");
 }
 
+.container{
+
+    background: #000000;
+    opacity: 0.8;
+    border-radius: 25px;
+    padding: 20px;
+    width: 95%;
+    max-width: 450px;
+}
+
+.input-city{
+    border: none;
+    outline: none;
+    padding: 10px;
+    border-radius: 25px;
+    font-size: 20px;
+    background-color: #7c7c7c2b;
+    color: #fff;
+    width: calc(100% - 100px);
+}
+
+.button-search{
+    border: none;
+    outline: none;
+    padding: 10px;
+    border-radius: 50px;
+    background-color: #7c7c7c2b;
+    cursor: pointer;
+    float: right;
+}
+
+.img-search{
+    width: 25px;
+}
+
+.middle{
+    margin-top: 30px;
+}
+
+.title-city{
+    color: #fff;
+    font-size: 28px;
+    font-weight: 300;
+}
+
+.degree{
+    font-size: 20px;
+    color: #ffffff;
+    margin-top: 20px;
+}
+
+.small{
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.preview-text{
+    color: #ffffff;
+    margin-left: 20px;
+}
+
+.weather-city{
+    color: #ffffff; 
+    margin-top: 20px;
+}
