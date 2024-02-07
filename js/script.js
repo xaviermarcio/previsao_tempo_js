@@ -1,4 +1,4 @@
-const key = "24b54c90223b9c8379917fb899563181";
+let key = "24b54c90223b9c8379917fb899563181";
 
 function putDataOnScreen(date) {
   document.querySelector(".title-city").innerHTML = "Tempo em " + date.name;
@@ -9,7 +9,7 @@ function putDataOnScreen(date) {
 }
 
 async function searchCity(city) {
-  const date = await fetch(
+  let date = await fetch(
     `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${key}&lang=pt_br&units=metric`
   ).then((response) => response.json());
 
@@ -17,7 +17,7 @@ async function searchCity(city) {
 }
 
 function clickBotton() {
-  const city = document.querySelector(".input-city").value;
+  let city = document.querySelector(".input-city").value;
 
   searchCity(city);
 }
