@@ -1,32 +1,43 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Previsão do tempo </title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Lobster&family=Open+Sans:wght@300;500;700&family=Red+Hat+Display:ital,wght@0,300;0,400;1,300;1,400;1,700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
-    <link rel="shortcut icon" href="images/clima.png">
-    <link rel="stylesheet" href="css/styles.css">
-</head>
-<body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Previsão do tempo</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lobster&family=Open+Sans:wght@300;500;700&family=Red+Hat+Display:ital,wght@0,300;0,400;1,300;1,400;1,700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="shortcut icon" href="images/clima.png" />
+    <link rel="stylesheet" href="css/styles.css" />
+    <script src="js/script.js"></script>
+  </head>
+  <body>
     <div class="container">
-        <input class="input-city" type="text" name="" id="" placeholder="Digite o nome da cidade">
-        <button class="button-search">
-            <img class="img-search" alt="busca" src="images/pesquisa-de-lupa.png"/>
-        </button>
+      <input
+        class="input-city"
+        type="text"
+        placeholder="Digite o nome da cidade"
+      />
+      <button class="button-search" onclick="clickBotton()">
+        <img class="img-search" alt="busca" src="images/pesquisa-de-lupa.png" />
+      </button>
 
-        <div class="middle">
-            <h2 class="title-city">Tempo em Brasília</h2>
-            <p class="degree">21°C</p>
-        
-            <div class="small">
-                <img class="preview-img " src="https://openweathermap.org/img/wn/04n.png">
-                <p class="preview-text">Nublado</p>
-            </div>
-            <p class="weather-city">Umidade: 76%</p>
-        </div>    
-    </div> 
-</body>
+      <div class="middle">
+        <h2 class="title-city">Tempo em Brasília</h2>
+        <p class="time">21°C</p>
+
+        <div class="small">
+          <img
+            class="preview-img"
+            src="https://openweathermap.org/img/wn/04n.png"
+          />
+          <p class="preview-text">Nublado</p>
+        </div>
+        <p class="humidity">Umidade: 76%</p>
+      </div>
+    </div>
+  </body>
 </html>

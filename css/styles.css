@@ -1,11 +1,18 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: 'Open Sans', sans-serif;
 }
 
-body{
+:root {
+    --color-black: #000000;
+    --color-gray: #7c7c7c2b;
+    --color-white: #fff;
+    --color-white2: #ffffff;
+}
+
+body {
     height: 100vh;
     width: 100vw;
     display: flex;
@@ -14,9 +21,9 @@ body{
     background-image: url("https://source.unsplash.com/1600x900/?landscape");
 }
 
-.container{
+.container {
 
-    background: #000000;
+    background: var(--color-black);
     opacity: 0.8;
     border-radius: 25px;
     padding: 20px;
@@ -24,59 +31,61 @@ body{
     max-width: 450px;
 }
 
-.input-city{
+.input-city {
     border: none;
     outline: none;
     padding: 10px;
     border-radius: 25px;
     font-size: 20px;
-    background-color: #7c7c7c2b;
-    color: #fff;
+    background-color: var(--color-gray);
+    color: var(--color-white);
     width: calc(100% - 100px);
 }
 
-.button-search{
+.button-search {
     border: none;
     outline: none;
     padding: 10px;
     border-radius: 50px;
-    background-color: #7c7c7c2b;
+    background-color: var(--color-gray);
     cursor: pointer;
     float: right;
 }
 
-.img-search{
+.img-search {
     width: 25px;
 }
 
-.middle{
+.middle {
     margin-top: 30px;
 }
 
-.title-city{
-    color: #fff;
+.title-city {
+    color: var(--color-white);
     font-size: 28px;
     font-weight: 300;
 }
 
-.degree{
+.time {
     font-size: 20px;
-    color: #ffffff;
+    color: var(--color-white2);
     margin-top: 20px;
 }
 
-.small{
+.small {
     display: flex;
     align-items: center;
     margin-top: 20px;
 }
 
-.preview-text{
-    color: #ffffff;
+.preview-text {
+    color: var(--color-white2);
     margin-left: 20px;
+    text-transform: capitalize;
+
 }
 
-.weather-city{
-    color: #ffffff; 
+.humidity {
+    color: var(--color-white2);
     margin-top: 20px;
 }

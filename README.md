@@ -12,7 +12,7 @@ API de Localização: A aplicação consome uma API de localização para encont
 HTML: Estruturação da página web.
 CSS: Estilização e design responsivo.
 JavaScript: Lógica de programação para interação do usuário e manipulação de dados.
-API de Previsão do Tempo: Consumo de uma API para obter informações meteorológicas atualizadas.
+API de Previsão do Tempo: Consumo de uma API para obter informações meteorológicas atualizadas.No site https://openweathermap.org/api tem que fazer um cadastro para obter um chave que será usada no código JaaScript.
 
 ## Como Usar
 Clone o repositório para sua máquina local.
